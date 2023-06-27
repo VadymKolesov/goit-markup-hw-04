@@ -56,12 +56,6 @@ main .container {
   margin: 0 auto;
 }
 
-.section-service .list {
-  padding: 72px 0 120px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
 .header {
   border-bottom: 1px solid var(--cornflower);
 }
@@ -178,7 +172,6 @@ body {
 }
 
 .section-info {
-  border: 2px solid red;
   padding: 120px 0;
 }
 
@@ -211,7 +204,25 @@ body {
   letter-spacing: 0.02em;
 }
 
+.section-service {
+  padding-bottom: 120px;
+}
+
+.section-service .container {
+  border: 2px solid red;
+}
+
+.section-service .list {
+  display: flex;
+  gap: 24px;
+}
+
+.content-service {
+  width: calc((100% - 48px) / 3);
+}
+
 .title-service {
+  margin-bottom: 72px;
   color: var(--navy-blue);
   text-align: center;
   font-weight: 700;
