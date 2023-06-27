@@ -31,12 +31,23 @@ img {
 }
 
 header .container {
-  padding: 24px 15px;
+  padding: 0 15px;
   margin: 0 auto;
   justify-content: space-between;
   display: flex;
-  align-items: center;
   width: 1158px;
+  align-items: center;
+}
+
+.navigate {
+  display: flex;
+  align-items: center;
+}
+
+.navigate .list {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
 }
 
 main .container {
@@ -59,19 +70,6 @@ main .container {
 
 .section-info li {
   width: calc((100% - 72px) / 4);
-}
-
-header nav .list {
-  display: inline-block;
-}
-
-header li {
-  margin-right: 40px;
-  display: inline-block;
-}
-
-header li:last-child {
-  margin-right: 0;
 }
 
 header {
@@ -114,6 +112,7 @@ body {
 }
 
 .list .nav-list {
+  padding: 24px 0;
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 16px;
@@ -129,6 +128,11 @@ body {
 
 .address-header {
   font-style: normal;
+}
+
+.address-header .list {
+  display: flex;
+  gap: 40px;
 }
 
 .list .contacts {
