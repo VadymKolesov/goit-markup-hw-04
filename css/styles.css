@@ -33,7 +33,16 @@ img {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .header .container {
@@ -192,7 +201,6 @@ body {
 }
 
 .title-info {
-  text-align: center;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -201,12 +209,19 @@ body {
   color: var(--navy-blue);
 }
 
-.description-title-info {
+.section-team .title-info {
   text-align: center;
+}
+
+.description-title-info {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.section-team .description-title-info {
+  text-align: center;
 }
 
 .section-service {
