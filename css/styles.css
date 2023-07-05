@@ -268,12 +268,11 @@ body {
   padding: 32px 16px;
 }
 
-.section-filter h1 {
-  color: var(--white);
-  text-align: center;
+.section-filter {
+  padding: 96px 0 120px 0;
 }
 
-.section-filter .button-filter {
+.button-filter {
   font-family: "Roboto", sans-serif;
   background-color: var(--cloud);
   color: var(--iris);
@@ -283,16 +282,40 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   border: 1px solid var(--cornflower);
-
   cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 
-.section-filter .button-filter:focus,
-.section-filter .button-filter:hover {
+.button-filter:focus,
+.button-filter:hover {
   background-color: var(--ocean);
   color: var(--white);
   border-color: var(--ocean);
-  text-align: center;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.card-item-filter {
+  width: calc((100% - 48px) / 3);
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.item-name {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
 }
 
 .title-list {
@@ -302,6 +325,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .mark-filter {
