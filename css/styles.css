@@ -269,7 +269,8 @@ body {
 }
 
 .section-filter {
-  padding: 96px 0 120px 0;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .button-filter {
@@ -292,6 +293,7 @@ body {
   background-color: var(--ocean);
   color: var(--white);
   border-color: var(--ocean);
+  border: 1px solid transparent;
 }
 
 .filter {
