@@ -6,6 +6,7 @@
   --white: #ffffff;
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
+  --light-slate: #8e8f99;
 }
 
 *,
@@ -146,6 +147,13 @@ body {
 
 .section-title {
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--navy-blue);
   text-align: center;
 }
@@ -200,8 +208,17 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
+.card-info {
+  background-color: var(--cloud);
+  width: 100%;
+  padding: 24px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
 .title-info {
-  margin-bottom: 8px;
+  margin: 8px 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -222,6 +239,24 @@ body {
 
 .section-team .description-title-info {
   text-align: center;
+}
+
+.social-items {
+  margin-top: 8px;
+}
+
+.logo-bg {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--iris);
+  border-radius: 50%;
+}
+
+.icon-social {
+  fill: var(--cloud);
 }
 
 .section-service {
@@ -266,6 +301,27 @@ body {
 
 .team-info {
   padding: 32px 16px;
+}
+
+.section-customers {
+  padding: 120px 0;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customer-link {
+  display: block;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.icon-customer {
+  fill: var(--light-slate);
 }
 
 .section-filter {
@@ -352,4 +408,26 @@ body {
   color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.footer-info-container {
+  margin-right: 120px;
+}
+
+.main-footer .container {
+  display: flex;
+}
+
+.social-media {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.main-footer .social-items {
+  display: flex;
+  gap: 16px;
 }
