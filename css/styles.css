@@ -458,11 +458,11 @@ body {
 }
 
 .link-add:hover .hover-text-add {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .link-add:focus .hover-text-add {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .item-list {
