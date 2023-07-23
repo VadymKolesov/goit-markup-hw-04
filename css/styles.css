@@ -431,8 +431,8 @@ body {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-add:hover,
-.link-add:focus {
+.card-item-filter:hover,
+.card-item-filter:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -457,11 +457,11 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-add:hover .hover-text-add {
+.card-item-filter:hover .hover-text-add {
   transform: translateY(0);
 }
 
-.link-add:focus .hover-text-add {
+.card-item-filter:focus .hover-text-add {
   transform: translateY(0);
 }
 
