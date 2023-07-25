@@ -59,7 +59,6 @@ img {
 
 .navigate .list {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
 }
 
@@ -111,6 +110,7 @@ body {
 }
 
 .list .nav-list {
+  display: block;
   padding: 24px 0;
   color: var(--navy-blue);
   font-weight: 500;
@@ -235,7 +235,7 @@ body {
 .card-info {
   background-color: var(--cloud);
   width: 100%;
-  padding: 24px 0;
+  height: 112px;
   border-radius: 4px;
   display: flex;
   justify-content: center;
